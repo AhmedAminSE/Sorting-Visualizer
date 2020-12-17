@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorting visualizer</title>
+    <link rel='stylesheet' href='style.css'>
+</head>
+
+<body>
+    <header>
+        <div id='generate-array'>Generate New Array</div>
+        <label for='array-size'>Array size</label>
+        <input type='range' min='5' max='299' id='array-size'>
+        <label for='sorting-speed'>Sorting Speed</label>
+        <input type='number' min='1' value='10' id='sorting-speed'>
+        <label for='sorting-speed'>ms</label>
+        <div class='sorting-algorithms'>
+            <div class='algorithm' id='bubble-sort'>Bubble Sort</div>
+            <div class='algorithm' id='selection-sort'>Selection Sort</div>
+            <div class='algorithm' id='insertion-sort'>Insertion Sort</div>
+            <div class='algorithm' id='merge-sort'>Merge Sort</div>
+            <div class='algorithm' id='quick-sort'>Quick Sort</div>
+            <div class='algorithm' id='heap-sort'>Heap Sort</div>
+        </div>
+    </header>
+    <div class='array-container'>
+    </div>
+    <script src='script.js'></script>
+</body>
+
+</html>
